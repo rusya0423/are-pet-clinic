@@ -1,6 +1,6 @@
 package are.springframework.arepetclinic.model;
 
-public class Person {
+public class Person extends BaseEntity {
 
     private String firstName;
 
