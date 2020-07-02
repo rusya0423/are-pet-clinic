@@ -2,9 +2,10 @@ package are.springframework.arepetclinic.serivce.map;
 
 import are.springframework.arepetclinic.model.Vet;
 import are.springframework.arepetclinic.serivce.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
-
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
